@@ -106,7 +106,7 @@ flowchart TD
 | Dashboard | Next.js, React, TypeScript | Developer interface |
 | Gateway | Node.js, Fastify, TypeScript | Authentication, routing, request handling |
 | Database | PostgreSQL | Persistent configuration and usage records |
-| ORM | Drizzle ORM | Database queries and migrations |
+| ORM | Prisma | Database queries and migrations |
 | Rate limiting | Redis | Shared counters and rate-limit state |
 | Validation | Zod | Runtime validation of inputs and configuration |
 | Testing | Vitest, Playwright | Unit, integration, and browser tests |

@@ -3,6 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "main": "./lib/prisma.ts",
+  "types": "./lib/prisma.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/prisma.ts",
+      "default": "./lib/prisma.ts"
+    }
+  },
   "scripts": {
     "dev": "prisma dev",
     "studio": "prisma studio",

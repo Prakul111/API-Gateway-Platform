@@ -32,6 +32,9 @@ importers:
       '@fastify/helmet':
         specifier: ^13.2.0
         version: 13.2.0
+      database:
+        specifier: workspace:*
+        version: link:../../packages/database
       dotenv:
         specifier: ^18.0.9
         version: 18.0.9
@@ -42,6 +45,9 @@ importers:
         specifier: ^4.6.7
         version: 4.6.7
     devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: 26.4.1
         version: 26.4.1

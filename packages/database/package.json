@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "dev": "prisma dev",
+    "dev:prisma": "prisma dev",
     "studio": "prisma studio",
     "generate": "prisma generate",
     "migrate": "prisma migrate dev"

@@ -2,8 +2,12 @@
   "name": "api-gateway-fullstack",
   "private": true,
   "scripts": {
+    "dev": "docker compose up -d && turbo run dev",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "db:migrate": "pnpm --filter database migrate",
+    "db:studio": "pnpm --filter database studio",
     "build": "turbo run build",
-    "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
